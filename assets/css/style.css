@@ -1,0 +1,68 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+nav{
+    background-color:#28a745;
+}
+#productos{
+    padding: 20px 0 0 20px;
+}
+#productos .card {
+    margin: 0 0 30px 50px;
+}
+#productos h5 {
+    font-weight: 400;
+    font-size: 20px;
+}
+#productos p {
+    font-weight: 200;
+    font-size: 16px;
+}
+.card-footer {
+    text-align: right;
+} 
+small {
+    font-weight: 300;
+    font-size: 16px;
+} 
+span {
+    color: #28a745;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0 0 0 10px;
+}
+#formulario{
+    background-color: #28a745;
+    text-align: center;
+    padding: 20px 80px;
+}
+#formulario h2{
+    color: white;
+    font-weight: 500;
+    font-size: 21px;
+}
+.casillas{
+    font-weight: 300;   
+}
+.boton{
+    margin: 10px auto;
+    font-weight: 500;
+    font-size: 16px;
+}
+footer {
+    margin: 20px 0;
+    text-align: center;
+    font-weight: 300;
+}
+
+footer img, p {
+   margin: 10px 0;
+}
+@media (max-width: 700px) {
+    #formulario{
+        padding: 20px 10px;
+    }
+    #productos .card {
+        margin: 0 0 20px 25px;
+    }
+}
